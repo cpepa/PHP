@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: rgb(36, 41, 51);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(197, 213, 255);
+}
+
+h2 {
+    color: rgba(254,254,254,1.00);
+    text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: darkgreen;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(65, 59, 105);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color:olivedrab;
+  color: rgb(254, 254, 254);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(255,255,255,1.00);
+    color: rgb(65, 59, 105);
+}
